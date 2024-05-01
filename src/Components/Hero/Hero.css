@@ -1,0 +1,124 @@
+.hero{
+    margin: 0px 50px;
+    margin-top: 79px;
+}
+.hero-text{
+    color: #fff;
+    font-size: 74px;
+    font-weight: 500;
+    line-height: 75px;
+}
+.hero-explore{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+.hero-explore p{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-dot-play{
+    margin-top: 118px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p{
+    color: #fff;
+    font-size: 19px;
+}
+
+@media only screen and (max-width:800px) {
+    .hero-text{
+        font-size: 44px;
+        line-height: 47px;
+    }
+    .hero-explore{
+        margin-top: 290px;
+        padding: 4px 5px;
+        padding-left: 16px;
+    }
+    .hero-explore p{
+        font-size: 16px;
+    }
+    .hero-explore img{
+        height: 40px;
+        width: 40px;
+    }
+    .hero-dot-play{
+        margin-top: 15px;
+    } 
+    .hero-dot {
+        width: 10px;
+        height: 10px;
+    }
+    .hero-play img{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .hero{
+        margin-top: 30px;
+        margin: 0px 13px;
+    }
+    .hero-text {
+        text-align: center;
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .hero-explore {
+        margin-top: 353px;
+        padding: 3px 4px;
+        padding-left: 8px ;
+        gap: 5px; 
+    }
+    .hero-explore p {
+        font-size: 12px;
+    }
+    .hero-explore img {
+        height: 25px;
+        width: 25px;
+    }
+    .hero-dots {
+        gap: 5px;
+    }
+    .hero-play img{
+        height: 35px;
+        width: 35px;
+    }
+    .hero-play p {
+        font-size: 13px;
+    }
+    .hero-dot-play {
+        margin-top: 25px;
+    }
+}
