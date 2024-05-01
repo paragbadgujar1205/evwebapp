@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/evwebapp/static/css/main.b28ae34d.css",
+    "main.js": "/evwebapp/static/js/main.0b94122b.js",
+    "static/media/video1.mp4": "/evwebapp/static/media/video1.b9b67bc65760729b73ef.mp4",
+    "static/media/image1.png": "/evwebapp/static/media/image1.e9c1b48af7ea8d92e066.png",
+    "static/media/image3.png": "/evwebapp/static/media/image3.dbe0e2221aabe91e9c8f.png",
+    "static/media/image2.png": "/evwebapp/static/media/image2.ff3d622925a51c9cdfb9.png",
+    "index.html": "/evwebapp/index.html",
+    "main.b28ae34d.css.map": "/evwebapp/static/css/main.b28ae34d.css.map",
+    "main.0b94122b.js.map": "/evwebapp/static/js/main.0b94122b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b28ae34d.css",
+    "static/js/main.0b94122b.js"
+  ]
+}
